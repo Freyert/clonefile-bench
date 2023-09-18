@@ -41,7 +41,7 @@ int main() {
   start_time = clock();
   clonefile("input.dat", "copyfile.dat", CLONE_NOFOLLOW);
   elapsed = (double)(clock() - start_time)/CLOCKS_PER_SEC;
-  printf("copyfile: Done in %f seconds\n", elapsed);
+  printf("clonefile: Done in %f seconds\n", elapsed);
 
 
   return 0;
